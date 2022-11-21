@@ -1,0 +1,19 @@
+ignore:
+  - "contracts/mock"
+  - "contracts/dependencies"
+  - "contracts/deployments"
+coverage:
+  range: 70..90
+  round: down
+  precision: 2
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 1%
+        base: auto
+        if_ci_failed: error
+        informational: true
+    patch:
+      default:
+        informational: true

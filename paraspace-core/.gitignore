@@ -1,0 +1,37 @@
+.DS_Store
+**/.DS_Store
+.idea
+node_modules
+cache
+artifacts
+/types
+.env
+deployed-contracts.json
+coverage.json
+/coverage
+dist
+
+# Setting for non zero-installs (https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored)
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+docs/*
+!docs/DEVELOPER-GUIDE.md
+docs.restore
+
+.vscode
+coverage
+*sol.html
+coverage.json
+remix-compiler.config.js
+logs
+*data
+*.swp
+
+# foundry ignore
+foundry_libs
+foundry_out
