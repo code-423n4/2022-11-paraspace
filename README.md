@@ -29,7 +29,7 @@
 [discord-url]: https://discord.com/invite/buKKx4dySW
 
 [Website](https://para.space) |
-[White Paper](https://docs.para.space/para-space/para-space/readme) |
+[White Paper](https://docs.para.space/para-space/#introduction-to-para-space) |
 [API Docs](https://api-docs.para.space) |
 [Chat](https://discord.com/invite/buKKx4dySW)
 
@@ -127,35 +127,12 @@ N/A
 ```
 cd paraspace-core
 
-# fetch submodules
-git submodule update --init --recursive
-git submodule foreach git pull origin main
+# create .env file
+cp .env.example .env
 
-# install typos
-command -v rustup > /dev/null 2>&1 || bash -c "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain ${RUST_TOOLCHAIN}"
-command -v typos > /dev/null 2>&1 || bash -c "cargo install typos-cli"
+# install dependencies
+yarn install
 
-# install forge deps
-forge install --no-commit --no-git https://github.com/dapphub/ds-test
-forge install --no-commit --no-git https://github.com/foundry-rs/forge-std
-
-# create .env file for making Makefile commands works
-touch .env
-
-# install  dependencies
-yarn
-
-# build
-make build 
-
-# sequence test
-make test
-
-# parallel test
-make fast-test
-
-# foundry contract test
-make foundry-test
-
-# help
-make help
+# build contracts
+yarn build 
+```

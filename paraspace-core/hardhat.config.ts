@@ -36,15 +36,6 @@ import {eEthereumNetwork} from "./deploy/helpers/types";
 
 require(`${path.join(__dirname, "deploy/tasks/misc")}/set-bre.ts`);
 
-["deployments"].forEach((folder) => {
-  const tasksPath = path.join(__dirname, "tasks", folder);
-  fs.readdirSync(tasksPath)
-    .filter((pth) => pth.includes(".ts"))
-    .forEach((task) => {
-      require(`${tasksPath}/${task}`);
-    });
-});
-
 const hardhatConfig: HardhatUserConfig = {
   contractSizer: {
     alphaSort: true,
