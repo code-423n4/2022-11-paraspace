@@ -1,0 +1,7 @@
+[files]
+extend-exclude = ["contracts/dependencies", "contracts/mocks"]
+
+[default.extend-words]
+BAKC = "BAKC"
+BRE  = "BRE"
+Vas  = "Vas"
