@@ -21,7 +21,6 @@
 
 [![Twitter URL](https://img.shields.io/twitter/follow/ParallelFi?style=social)](https://twitter.com/ParallelFi)
 [![Telegram](https://img.shields.io/badge/Telegram-gray?logo=telegram)](https://t.me/parallelfi_community)
-[![Medium](https://img.shields.io/badge/Medium-gray?logo=medium)](https://medium.com/@paraspace)
 [![Discourse](https://img.shields.io/badge/Forum-gray?logo=discourse)](https://discourse.para.space)
 [![Discord chat][discord-badge]][discord-url]
 
@@ -33,7 +32,7 @@
 [API Docs](https://api-docs.para.space) |
 [Chat](https://discord.com/invite/buKKx4dySW)
 
-![paraspace-architecture](./images/paraspace-architecture.png)
+![paraspace-architecture](https://drive.google.com/file/d/1mQTnFQnpbDYD-2QZlnP2Z5xcDkFPSVpN/view)
 
 # Scope
 
