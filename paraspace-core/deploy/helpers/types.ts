@@ -509,7 +509,17 @@ export interface IChainlinkConfig {
   WBTC?: tEthereumAddress;
   STETH?: tEthereumAddress;
   APE?: tEthereumAddress;
+  PUNK?: tEthereumAddress;
   sAPE?: tEthereumAddress;
+  DOODLE?: tEthereumAddress;
+  BAYC?: tEthereumAddress;
+  MAYC?: tEthereumAddress;
+  WPUNKS?: tEthereumAddress;
+  MOONBIRD?: tEthereumAddress;
+  MEEBITS?: tEthereumAddress;
+  AZUKI?: tEthereumAddress;
+  OTHR?: tEthereumAddress;
+  CLONEX?: tEthereumAddress;
 }
 
 export interface IBendDAOConfig {

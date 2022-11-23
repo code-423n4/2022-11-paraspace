@@ -37,8 +37,6 @@
 
 # Scope
 
-*List all files in scope in the table below -- and feel free to add notes here to emphasize areas of focus.*
-
 | Contract | SLOC | Purpose | Libraries used |
 | ----------- | ----------- | ----------- | ----------- |
 | paraspace-core/contracts/misc/flashclaim/AirdropFlashClaimReceiver.sol | 147 |  | @Chainlink/vrf/* |
@@ -88,15 +86,13 @@
 
 ## Out of scope
 
-*List any files/contracts that are out of scope for this audit.*
-
-N/A
+The issue raised in PR https://github.com/para-space/paraspace-core/pull/7 has been already identified and evaluated, therefore, not eligible for rewards.
 
 # Additional Context
 
 - docs: https://docs.para.space
 - audit technical documentation: https://www.notion.so/parallelfinance/Audit-Technical-Documentation-0a107270dabe45d2b66a076e0bdaa943
-- code walkthrough: https://drive.google.com/file/d/1JvcanHeiQM8KDJLAZxXatP2GyaUP91Uh/view
+- code walkthrough: https://drive.google.com/file/d/1_3lz2le-DJ-pzfpoBiawETQrzeKWAq30/view
 - [goerli deployed contracts](https://github.com/para-space/paraspace-core/files/10064318/deployed-contracts.md)
 
 ## Scoping Details
@@ -129,12 +125,12 @@ N/A
 ```
 cd paraspace-core
 
-# create .env file
-cp .env.example .env
-
 # install dependencies
 yarn install
 
 # build contracts
-yarn build 
+yarn build
+
+# run tests
+make test
 ```
