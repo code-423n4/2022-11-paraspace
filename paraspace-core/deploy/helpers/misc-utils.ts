@@ -6,7 +6,8 @@ import {HardhatRuntimeEnvironment} from "hardhat/types";
 import low from "lowdb";
 import {getAdapter} from "./db-adapter";
 import {verifyEtherscanContract} from "./etherscan-verification";
-import {eEthereumNetwork} from "../helpers/types";
+import {eEthereumNetwork, IParaSpaceConfiguration} from "../helpers/types";
+import {ParaSpaceConfigs} from "../market-config";
 import {
   DB_PATH,
   FORK,
@@ -27,6 +28,10 @@ export let DRE: HardhatRuntimeEnvironment;
 
 export const setDRE = (_DRE: HardhatRuntimeEnvironment) => {
   DRE = _DRE;
+};
+
+export const getParaSpaceConfig = (): IParaSpaceConfiguration => {
+  return ParaSpaceConfigs[FORK || DRE.network.name];
 };
 
 export const isLocalTestnet = (): boolean => {
