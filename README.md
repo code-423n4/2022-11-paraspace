@@ -96,9 +96,11 @@ N/A
 
 - docs: https://docs.para.space
 - audit technical documentation: https://www.notion.so/parallelfinance/Audit-Technical-Documentation-0a107270dabe45d2b66a076e0bdaa943
-- [deployed-contracts](https://github.com/para-space/paraspace-core/files/10064318/deployed-contracts.md)
+- code walkthrough: https://drive.google.com/file/d/1JvcanHeiQM8KDJLAZxXatP2GyaUP91Uh/view
+- [goerli deployed contracts](https://github.com/para-space/paraspace-core/files/10064318/deployed-contracts.md)
 
-## Scoping Details 
+## Scoping Details
+
 ```
 - If you have a public code repo, please share it here:  https://github.com/para-space/paraspace-core
 - How many contracts are in scope?: 45
