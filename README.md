@@ -32,7 +32,7 @@
 [API Docs](https://api-docs.para.space) |
 [Chat](https://discord.com/invite/buKKx4dySW)
 
-![paraspace-architecture](https://drive.google.com/file/d/1mQTnFQnpbDYD-2QZlnP2Z5xcDkFPSVpN/view)
+![paraspace-architecture](https://user-images.githubusercontent.com/47150934/203772823-ef824800-55eb-427e-933f-6e8c198d6845.png)
 
 # Scope
 
