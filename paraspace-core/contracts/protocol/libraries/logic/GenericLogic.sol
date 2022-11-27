@@ -137,7 +137,7 @@ library GenericLogic {
                 vars.liquidationBonus,
                 vars.decimals,
 
-            ) = currentReserve.configuration.getParams();
+            ) = vars.reserveConfiguration.getParams();
 
             unchecked {
                 vars.assetUnit = 10**vars.decimals;
@@ -220,11 +220,12 @@ library GenericLogic {
                         vars.liquidationThreshold =
                             vars.userBalanceInBaseCurrency *
                             vars.liquidationThreshold;
-                        vars.ltv = vars.userBalanceInBaseCurrency * vars.ltv;
 
                         if (vars.ltv == 0) {
                             vars.hasZeroLtvCollateral = true;
                         }
+
+                        vars.ltv = vars.userBalanceInBaseCurrency * vars.ltv;
                     }
 
                     vars.avgERC721LiquidationThreshold += vars

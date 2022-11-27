@@ -1,3 +1,0 @@
-[submodule "deploy"]
-	path = deploy
-	url = git@github.com:para-space/paraspace-deploy.git
