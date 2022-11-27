@@ -290,6 +290,8 @@ export enum ProtocolErrors {
   ORACLE_PRICE_NOT_READY = "121", //oracle price not ready
   SET_ORACLE_SOURCE_NOT_ALLOWED = "122", //set oracle source not allowed
   RESERVE_NOT_ACTIVE_FOR_UNIV3 = "123", //reserve is not active for UniswapV3.
+  SAPE_NOT_ALLOWED = "128", //operation is not allow for sApe.
+  TOTAL_STAKING_AMOUNT_WRONG = "129", //cash plus borrow amount not equal to total staking amount.
   // SafeCast
   SAFECAST_UINT128_OVERFLOW = "SafeCast: value doesn't fit in 128 bits",
 
