@@ -115,6 +115,9 @@ The issue raised in PR https://github.com/para-space/paraspace-core/pull/7 has b
 ```
 cd paraspace-core
 
+# create an empty .env file (tests should work fine with it being empty)
+touch .env
+
 # install dependencies
 yarn
 
