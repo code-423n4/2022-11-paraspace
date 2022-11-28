@@ -14,7 +14,7 @@
 
 ## C4udit / Publicly Known Issues
 
-- https://github.com/para-space/paraspace-core/tree/main/audits
+- https://gist.github.com/Picodes/d39514dc40b7dee4fe0ff32768569cba
 
 # Overview
 
