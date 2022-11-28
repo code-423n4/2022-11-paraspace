@@ -1,16 +1,16 @@
 # ParaSpace contest details
 
-- Total Prize Pool: $144,500 USDC
-  - HM awards: $102,000 USDC
-  - QA report awards: $12,000 USDC
-  - Gas report awards: $6,000 USDC
-  - Judge + presort awards: $24,000 USDC
+- Total Prize Pool: $192,500 USDC
+  - HM awards: $136,000 USDC
+  - QA report awards: $16,000 USDC
+  - Gas report awards: $8,000 USDC
+  - Judge + presort awards: $32,000 USDC
   - Scout awards: $500 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2022-11-paraspace-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
-- Starts November 23, 2022 20:00 UTC
-- Ends December 5, 2022 20:00 UTC
+- Starts November 28, 2022 20:00 UTC
+- Ends December 9, 2022 20:00 UTC
 
 ## C4udit / Publicly Known Issues
 
