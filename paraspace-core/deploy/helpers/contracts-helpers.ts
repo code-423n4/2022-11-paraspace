@@ -49,8 +49,9 @@ import {InitializableImmutableAdminUpgradeabilityProxy} from "../../types";
 import {decodeEvents} from "./seaport-helpers/events";
 import {expect} from "chai";
 import {ABI} from "hardhat-deploy/dist/types";
-import {ethers} from "ethers";
+import {ethers} from "hardhat";
 import {GLOBAL_OVERRIDES} from "./hardhat-constants";
+import * as helpers from "@nomicfoundation/hardhat-network-helpers";
 
 export type ERC20TokenMap = {[symbol: string]: ERC20};
 export type ERC721TokenMap = {[symbol: string]: ERC721};
@@ -301,18 +302,18 @@ export const getProxyImplementation = async (
 export const impersonateAddress = async (
   address: tEthereumAddress
 ): Promise<SignerWithAddress> => {
-  const forkednetProvider = new ethers.providers.JsonRpcProvider(
-    (DRE.network.config as HttpNetworkConfig).url
+  // await (DRE as HardhatRuntimeEnvironment).network.provider.request({
+  //   method: "hardhat_impersonateAccount",
+  //   params: [address],
+  // });
+
+  // const signer = await ethers.provider.getSigner(address);
+
+  const provider = new ethers.providers.JsonRpcProvider(
+    "http://localhost:8545"
   );
-
-  if (!usingTenderly()) {
-    await (DRE as HardhatRuntimeEnvironment).network.provider.request({
-      method: "hardhat_impersonateAccount",
-      params: [address],
-    });
-  }
-
-  const signer = forkednetProvider.getSigner(address);
+  await provider.send("hardhat_impersonateAccount", [address]);
+  const signer = provider.getSigner(address);
 
   return {
     signer,

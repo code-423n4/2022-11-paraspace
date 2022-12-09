@@ -107,6 +107,7 @@ const hardhatConfig: HardhatUserConfig = {
     username: TENDERLY_USERNAME,
     forkNetwork: `${MAINNET_CHAINID}`, //Network id of the network we want to fork
   },
+  defaultNetwork: "localhost",
   networks: {
     localhost: {
       chainId: CHAINS_ID[eEthereumNetwork.hardhat],
@@ -114,6 +115,7 @@ const hardhatConfig: HardhatUserConfig = {
       gasPrice: "auto",
       gas: "auto",
       allowUnlimitedContractSize: true,
+      forking: buildForkConfig(),
     },
     parallel: {
       url: NETWORKS_RPC_URL[eEthereumNetwork.parallel],
@@ -132,8 +134,8 @@ const hardhatConfig: HardhatUserConfig = {
       throwOnTransactionFailures: true,
       throwOnCallFailures: true,
       accounts,
-      loggingEnabled: false,
       forking: buildForkConfig(),
+      loggingEnabled: true,
       allowUnlimitedContractSize: true,
     },
     goerli: {

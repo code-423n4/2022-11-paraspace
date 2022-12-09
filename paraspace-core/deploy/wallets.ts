@@ -5,9 +5,17 @@ import {HardhatNetworkAccountUserConfig} from "hardhat/types";
 
 dotenv.config();
 
+const {PRIMARY_PRIVATE_KEY} = process.env;
+
 const balance = "1000000000000000000000000"; // 1000000000000000000000000/1e18 = 1000,000 ETH
 
 export const accounts: HardhatNetworkAccountUserConfig[] = [
+  {
+    privateKey: PRIMARY_PRIVATE_KEY
+      ? PRIMARY_PRIVATE_KEY
+      : ethers.Wallet.fromMnemonic(DEPLOYER_MNEMONIC).privateKey,
+    balance,
+  },
   {
     privateKey:
       "0xc5e8f61d1ab959b397eecc0a37a6517b8e67a0e7cf1f4bce5591f3ed80199122",
@@ -46,10 +54,6 @@ export const accounts: HardhatNetworkAccountUserConfig[] = [
   {
     privateKey:
       "0xa2e0097c961c67ec197b6865d7ecea6caffc68ebeb00e6050368c8f67fc9c588",
-    balance,
-  },
-  {
-    privateKey: ethers.Wallet.fromMnemonic(DEPLOYER_MNEMONIC).privateKey,
     balance,
   },
 ];

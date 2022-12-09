@@ -12,13 +12,16 @@
     "postpack": "pinst --enable",
     "size": "hardhat size-contracts",
     "build": "hardhat compile",
+    "deploy": "hardhat deploy:all",
     "typechain": "hardhat typechain",
     "lint": "tsc --noEmit -skipLibCheck && solhint 'contracts/**/*.sol' && prettier --check 'contracts/**/*.sol' 'deploy/**/*.ts' 'test/**/*.ts' && eslint . --ext .ts",
     "coverage": "hardhat coverage --testfiles 'test/*.ts'",
+    "fork": "hardhat node --verbose",
     "format": "prettier --write 'contracts/**/*.sol' 'deploy/**/*.ts' 'test/**/*.ts'",
     "doc": "hardhat docgen",
     "test": "hardhat test ./test/*.ts",
-    "clean": "hardhat clean"
+    "clean": "hardhat clean",
+    "transfer:tokens": "npx hardhat run ./deploy/tasks/deployments/dev/2.transfer-tokens.ts --network localhost"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",

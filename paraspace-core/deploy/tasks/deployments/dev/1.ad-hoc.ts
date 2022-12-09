@@ -9,7 +9,7 @@ import * as envs from "../../../helpers/hardhat-constants";
 // import {waitForTx} from "../../../helpers/misc-utils";
 // import {GLOBAL_OVERRIDES} from "../../../helpers/hardhat-constants";
 
-const adHoc = async () => {
+export const adHoc = async () => {
   await DRE.run("set-DRE");
   console.time("ad-hoc");
 

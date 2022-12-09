@@ -14,7 +14,7 @@ import {ERC721Enumerable__factory} from "../../../../types";
 import {Moonbirds__factory} from "../../../../types";
 import {impersonateAddress} from "../../../helpers/contracts-helpers";
 import {BigNumber, utils} from "ethers";
-import {getLastSigner} from "../../../helpers/contracts-getters";
+import {getFirstSigner} from "../../../helpers/contracts-getters";
 
 // eslint-disable-next-line
 enum AssetType {
@@ -26,7 +26,7 @@ enum AssetType {
   ERC721_MOONBIRD,
 }
 
-const transferTokens = async () => {
+export const transferTokens = async () => {
   if (!isFork() || !isMainnet()) {
     return;
   }
@@ -35,13 +35,13 @@ const transferTokens = async () => {
 
   const paraSpaceConfig = getParaSpaceConfig();
   const tokens = paraSpaceConfig.Tokens;
-  const signer = await getLastSigner();
+  const signer = await getFirstSigner();
   const receiver = await signer.getAddress();
 
   const configs = [
     {
       name: ERC20TokenContractId.USDT,
-      whale: "0x5754284f345afc66a98fbb0a0afe71e0f007b949",
+      whale: "0x5754284f345afc66a98fbB0a0Afe71e0F007B949",
       address: tokens[ERC20TokenContractId.USDT],
       type: AssetType.ERC20,
       amount: "10000", // 10,000 USDT
@@ -133,7 +133,7 @@ const transferTokens = async () => {
   ];
 
   for (let i = 0; i < configs.length; i += 1) {
-    await sleep(3000);
+    await sleep(1000);
     try {
       const {name, type, whale: whaleAddress, address, amount} = configs[i];
       const whale = await impersonateAddress(whaleAddress);
@@ -153,7 +153,9 @@ const transferTokens = async () => {
         const amountWithUnits = BigNumber.from("10").pow(
           await token.decimals()
         );
+
         const balance = await token.balanceOf(whaleAddress);
+
         console.log(`whale ${name} balance: ${balance.toString()}`);
         if (balance.gt(amountWithUnits)) {
           console.log(
@@ -175,6 +177,7 @@ const transferTokens = async () => {
           console.log(
             `transfer ${name}#${tokenId} from ${whaleAddress} to ${receiver}`
           );
+
           await token.transferFrom(whaleAddress, receiver, tokenId);
         }
       } else if (type === AssetType.ERC721_MOONBIRD) {
@@ -213,7 +216,7 @@ const transferTokens = async () => {
   console.timeEnd("transfer-tokens");
 };
 
-async function main() {
+export async function main() {
   await rawBRE.run("set-DRE");
   await transferTokens();
 }

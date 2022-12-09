@@ -49,7 +49,7 @@ export const ETHERSCAN_VERIFICATION_MAX_RETRIES = parseInt(
 );
 
 export const DEPLOY_START = parseInt(process.env.DEPLOY_START || "0");
-export const DEPLOY_END = parseInt(process.env.DEPLOY_END || "20");
+export const DEPLOY_END = parseInt(process.env.DEPLOY_END || "21");
 
 export const DEPLOYER_MNEMONIC =
   process.env.DEPLOYER_MNEMONIC ||
