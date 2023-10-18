@@ -1,0 +1,1215 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q4-2022 / paraspace-nov28
+==============================================================
+
+[11/22/2022 18:08] kartoonjoy (pinned)
+👋 Hello and welcome to the contest channel for the $192,500 USDC  **Paraspace** contest!
+
+📆 Contest opens 11/28/2022 20:00 (20:00 UTC) and runs through 12/09/2022 20:00 (20:00 UTC) (11 days).
+
+Please give a warm welcome to the ParaSpace team, particularly @ivans, @WalidOfNow, and @Yubo, who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest page: https://code4rena.com/contests/2022-11-paraspace-contest
+
+{Embed}
+https://code4rena.com/contests/2022-11-paraspace-contest
+Code4rena ParaSpace contest
+$192,500 USDC
+28 November 2022—9 December 2022
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/1704fbbc-f7ef-48d0-8be8-661b749588c3-5B085
+
+
+[11/22/2022 18:57] kartoonjoy
+Pinned a message.
+
+
+[11/23/2022 20:03] itsmetechjay
+Hey wardens, we need to delay this contest. We'll let you know when it has been rescheduled.
+
+{Reactions}
+hi5 (10) 
+
+[11/23/2022 20:14] c7e7eff
+Are we talking hours, days or weeks ?
+
+
+[11/23/2022 20:15] itsmetechjay
+We will let you know once it’s rescheduled. 🙂
+
+
+[11/24/2022 02:55] chaduke3730
+ok thanks
+
+
+[11/26/2022 19:29] eyexploit
+Is this a private audit ??
+
+
+[11/26/2022 19:29] eyexploit
+https://code4rena.com/contests/2022-11-paraspace-contest\
+
+{Embed}
+https://code4rena.com/contests/2022-11-paraspace-contest/
+Code4rena ParaSpace contest
+$144,500 USDC
+23 November 2022—5 December 2022
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/C4-banner-7C19B.png
+
+
+[11/26/2022 19:34] 0xsorrynotsorry
+No it's not. It's just postponed to a further date
+
+{Reactions}
+👍 
+
+[11/26/2022 19:40] eyexploit
+ohh, that's relief
+
+
+[11/28/2022 16:49] kartoonjoy
+Hi wardens, please be advised that this contest will launch TODAY! 🎉
+
+{Reactions}
+C4Keycap (16) 👍 (2) 
+
+[11/28/2022 17:50] yubo6240
+Great!
+
+
+[11/28/2022 17:50] yubo6240
+I’m looking forward to it
+
+
+[11/28/2022 17:50] yubo6240
+Thank you so much
+
+{Reactions}
+hi5 
+
+[11/28/2022 18:01] Franfran#5067
+That's some hella big code base ! Looking forward to take a look at it
+
+{Reactions}
+4739_Skeletor 
+
+[11/28/2022 20:13] nicobevi.eth
+hello, I'm having an error running `make fast-tests` regarding an invalid mnemonic even though I've added a valid one to the .env file
+
+Maybe it's related with the field `DB_PATH=:memory: #required` ? Not sure what should I put there
+
+
+[11/28/2022 20:22] thepicodes
+**Automated Findings:** https://gist.github.com/Picodes/d39514dc40b7dee4fe0ff32768569cba
+
+{Reactions}
+👍 
+
+[11/28/2022 20:48] kartoonjoy (pinned)
+Wardens, please note that c4udit output has been posted above and added to pinned posts. These are considered publicly known issues and are not eligible for awards.
+
+Automated findings: 
+https://gist.github.com/Picodes/d39514dc40b7dee4fe0ff32768569cba
+
+This will also be linked in the contest README file shortly.
+
+{Embed}
+https://gist.github.com/Picodes/d39514dc40b7dee4fe0ff32768569cba
+4naly3er-2022-11-paraspace.md
+GitHub Gist: instantly share code, notes, and snippets.
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/gist-og-image-17482.png
+
+
+[11/28/2022 20:50] dravee
+Started a thread.
+
+
+[11/28/2022 20:52] kartoonjoy
+Pinned a message.
+
+
+[11/28/2022 22:59] codecustard
+Is that just referencing those lines of code? For example, can we still submit a finding that is pertaining to any of those lines, but have may have similar "description heading"?
+
+
+[11/29/2022 01:52] beepidibop
+why does the automated findings suggest using `!= 0` instead of `>0` for gas optimization? `>0` uses less gas than `!= 0`
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/image-D2916.png
+
+
+[11/29/2022 01:55] alextheentreprenerd
+Only for requires, only when optimizer is on, exclusively before 0.8.13
+
+
+[11/29/2022 02:53] codecustard
+Any judges on? Wondering if I could ask a question
+
+
+[11/29/2022 06:09] beepidibop
+cool, learned something today. Thanks!
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/image-F33D5.png
+
+
+[11/29/2022 08:34] trust90
+Who is the Paraspace DM personnel?
+
+
+[11/29/2022 12:35] cloudellie
+@ivans and @Yubo
+
+
+[11/29/2022 12:48] mahdi9606
+How to fix this error when installing forge dependencies ?
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/Screenshot_129-E5A69.png
+
+
+[11/29/2022 14:51] .aragar
+make init
+
+
+[11/29/2022 14:55] ladboy233
+Wow great documentation
+
+{Reactions}
+👍 (2) 
+
+[11/29/2022 17:49] dravee
+Please try the provided setup instructions in the repo 🙂
+
+
+[11/29/2022 17:50] .aragar
+@mahdikarimi Sorry was on my phone and only recalling from memory. Yes, @Dravee  is correct. I was following the directions here https://github.com/para-space/paraspace-core/blob/main/docs/DEVELOPER-GUIDE.md and did not have a problem running `make fast-test`
+
+{Embed}
+https://github.com/para-space/paraspace-core/blob/main/docs/DEVELOPER-GUIDE.md
+paraspace-core/DEVELOPER-GUIDE.md at main · para-space/paraspace-core
+Para-Space NFT Money Market. Contribute to para-space/paraspace-core development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/paraspace-core-9DC91
+
+{Reactions}
+👍 
+
+[11/29/2022 17:53] .aragar
+That will set you up to run the more verbose and lengthy `make test` I assume that's why it's different from `make fast-test`. It sure did take a while to complete.
+
+
+[11/29/2022 18:30] jiraiya5571
+Hi guys, any article covering best action steps to take on an auditing job? I am fairly good with Solidity
+
+{Reactions}
+🇨 (2) 🇭 (2) 🇦 (2) 🇹 (2) 
+
+[11/29/2022 18:31] jiraiya5571
+Excited to try out this contest
+
+
+[11/29/2022 18:40] liveactionllamac4
+Hi! 👋 Can you please ask your question in #🐺wardens or #😃chat? We try to keep the contest channels focused on questions specifically related to each contest. 🙂
+
+
+[11/29/2022 18:53] jiraiya5571
+My bad
+
+{Reactions}
+hi5 (2) 
+
+[11/29/2022 22:23] haruxe
+the front end for https://para.space/ is clean asf
+
+{Reactions}
+💯 (5) 
+
+[11/30/2022 03:04] gopherj
+> Hi guys, any article covering best action steps to take on an auditing job? I am fairly good with Solidity
+Hi any specific guides that I can help?
+
+
+[11/30/2022 09:21] Phaxsam#8129
+hey guys any document showing contract we're auditing among the repo or Paraspace?
+
+
+[11/30/2022 09:33] 0xbtk
+check the docs  https://docs.para.space/para-space/external-audits
+
+{Embed}
+https://docs.para.space/para-space/external-audits
+External Audits
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/w71MGZdoSOjqMQ5Mr0Vy-7C6B1.png
+
+
+[11/30/2022 09:47] pfapostol
+Does anyone know a way to speed up the hardhat tests?
+
+
+[11/30/2022 09:49] Phaxsam#8129
+thank you
+
+{Reactions}
+🙏 (2) 
+
+[11/30/2022 10:25] trust90
+getting a "JavaScript heap out of memory" when running fast-test or specific tests. Any way around that? .env file is empty
+
+
+[11/30/2022 10:34] pfapostol
+Maybe not enough RAM?
+
+
+[11/30/2022 10:34] trust90
+Got 16 GB and it's mostly idle so think it's not
+
+
+[11/30/2022 10:37] pfapostol
+Yes, it's weird. I also have 16, and tests are going well, but slow.
+
+
+[11/30/2022 10:39] pfapostol
+It's sad when such big projects are written on hardhat instead of foundry.
+
+{Reactions}
+👍 (2) 
+
+[11/30/2022 12:40] lsdan
+https://blog.openreplay.com/javascript-heap-out-of-memory-error/
+
+{Embed}
+https://blog.openreplay.com/javascript-heap-out-of-memory-error/
+JavaScript Heap Out Of Memory Error
+A quick solution that you can use to fix "Heap Out Of Memory Error" in JavaScript. We lay out the causes and how to prevent them.
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/hero_17p0jg-EC294.jpg
+
+
+[11/30/2022 12:41] lsdan
+It's a node thing, not a hardhat thing per se
+
+
+[11/30/2022 12:52] trust90
+Thanks @LSDan ! This did the trick `export NODE_OPTIONS=--max_old_space_size=4096` . Node versions have different default limits and mine was too low.
+
+{Reactions}
+👍 
+
+[11/30/2022 12:53] lsdan
+Fought that particular battle several times myself in the past on different projects 😅
+
+{Reactions}
+🍻 (2) 💯 
+
+[11/30/2022 15:31] saksham#7993
+Confused from where to start lol such a huge codebase
+
+
+[11/30/2022 15:34] pfapostol
+PoolCore.sol is entry point
+
+
+[11/30/2022 15:34] pfapostol
+with few exceptions
+
+{Reactions}
+❤️ (2) 
+
+[11/30/2022 15:35] saksham#7993
+Thanks alot ser
+
+
+[11/30/2022 15:38] .nalus
+typo here
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/image-36CD3.png
+
+
+[11/30/2022 16:07] sheys_mst
+Submit that as a vuln 😅
+
+{Reactions}
+🤣 
+
+[11/30/2022 18:36] liveactionllamac4
+Hi! 👋 Can you please ask your question in #🐺wardens or #😃chat? We try to keep the contest channels focused on questions for the sponsor. 🙂
+
+
+[12/01/2022 01:06] ladboy233
+https://github.com/para-space/paraspace-core/pull/7
+
+{Embed}
+https://github.com/para-space/paraspace-core/pull/7
+ON_HOLD: position can not be liquidated by zhoujia6139 · Pull Reque...
+Security Checklist
+
+ 1. Re-Entrancy
+ 2. Arithmetic Over/Under Flows
+ 3. Unexpected Ether
+ 4. Delegatecall
+ 5. Default Visibilities
+ 6. Entropy Illusion
+ 7. External Contract Referencing
+ 8. Short A...
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/7-D5DE7
+
+
+[12/01/2022 01:06] ladboy233
+Is this the only issue that is out of scope?
+
+
+[12/01/2022 01:08] ladboy233
+Anyone managed to run the test in windows so far?
+
+
+[12/01/2022 01:09] ladboy233
+Is yarn test = make fast-test?
+
+
+[12/01/2022 04:58] pfapostol
+yarn test == hardhat test ./test/*.ts
+make fast-test == MOCHA_JOBS=4 DB_PATH=:memory: npx hardhat test ./test/${TEST_TARGET} --network ${NETWORK} # --verbose
+
+
+[12/01/2022 08:19] bharat_nakwalm
+.
+
+
+[12/01/2022 09:48] eyexploit
+what if there is a bug on looksRareExchange (out of scope) and can affect the paraspace(in scope) contract, will that considers as a valid bug?
+
+
+[12/01/2022 10:20] pfapostol
+What contract is used as the reward controller for ERC721?
+
+
+[12/01/2022 10:26] rustyrabbit
+Anyone from the sponsors available for DM ?
+
+
+[12/01/2022 10:33] koolexc
+I get this error when trying 
+`yarn`
+Any suggestions?
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/Screenshot_2022-12-01_at_11.32.32-EC763.png
+
+
+[12/01/2022 10:34] trust90
+Let's keep any discussion on bugs in DM
+
+{Reactions}
+👍 
+
+[12/01/2022 18:04] .aragar
+https://github.com/yarnpkg/berry/issues/1142#issuecomment-607272809 try the steps in this thread
+
+{Embed}
+https://github.com/yarnpkg/berry/issues/1142
+[Bug] YN0018 in github actions when using TypeScript · Issue #1142 ...
+Describe the bug yarn install fails with on GitHub actions but not locally with YN0018 yarn cache clean --all did not help updating yarn to latest did not help updating yarn to sources did not help...
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/1142-6C954
+
+{Reactions}
+thankyou (2) 
+
+[12/01/2022 20:07] eyexploit
+Hi Trust, who should I dm?
+
+
+[12/01/2022 20:08] cloudellie
+check the pinned messages. We always intro the sponsor team in the welcome post, and pin it.
+
+
+[12/01/2022 20:09] eyexploit
+ohh thnx, I'm kinda new here
+
+{Reactions}
+hi5 (2) 
+
+[12/01/2022 20:11] cloudellie
+No worries, glad you're here!
+
+
+[12/01/2022 20:53] kiki_dev
+For executeFlashClaimParams. What is the array of nftTokenID’s representing?
+
+
+[12/02/2022 13:00] hellocccz
+@Yubo Hi, DMed
+
+
+[12/02/2022 18:19] acegawd
+@Yubo or @ivans who's available for DM?
+
+
+[12/03/2022 12:07] R2#8087
+Hi! 
+There is a doc about xTokens
+https://docs.para.space/para-space/introduction-to-paraspace/supplying-nfts/borrow-and-short-nfts-via-nftx-tokens
+
+But I didn't find it in code. Is it not implemented yet?
+
+{Embed}
+https://docs.para.space/para-space/introduction-to-paraspace/supplying-nfts/borrow-and-short-nfts-via-nftx-tokens
+Borrow and Short NFT's via NFTX Tokens
+ParaSpace allows the user to borrow and ultimately short NFT's via NFTX's vToken. Users can thus take advantage of price declines in an NFT price.
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/THoYqKdTDIScpwuwknQH-AF5CF.png
+
+
+[12/03/2022 19:56] mahdi9606
+Is UniswapV3OracleWrapper deployed on goerli network ? if so what's the deployed address ?
+
+
+[12/04/2022 07:57] hake_stake
+> and since UniswapV3 price calcualted using its ERC20 composition and unclaimed fees, we have implemented an oracle wrapper UniswapV3OracleWrapper to calculate the price on chain. for more information on price calculation, check our gitbook.
+In what section of the gitbook can i find the info on price calculation?
+
+
+[12/04/2022 13:04] carlitox477
+I was reading [NFT price oracle research II](https://docs.para.space/para-space/developer-docs/nft-price-oracle/research-ii). What does $D$, $x\_{i}$ and $y\_{i}$ mean?
+
+
+[12/04/2022 16:55] _pzeus
+Greetings, just wanted to appreaciate the enormous effort from the whole team at ParaSpace :chefskiss: 
+Great documentation and most importantly I was surprised by the video summary of the protocol and the contracts behaviours and interactions.
+Thumbs up team !!! 🙌
+
+{Reactions}
+👍 (2) 
+
+[12/04/2022 18:17] bharat_nakwalm
+Yeah
+
+
+[12/04/2022 19:22] acegawd
+Where can I find the deployed contracts?
+
+
+[12/05/2022 07:12] Jia#3657
+xToken means derivative token for user asset. for erc20 it's PToken, and for erc721 it's NToken.
+
+
+[12/05/2022 07:16] Jia#3657
+Yeah. you can check at  https://goerli.etherscan.io/address/0x98A347Bc45A913a0E17060F3BE356044994aCE81
+
+{Embed}
+https://goerli.etherscan.io/address/0x98A347Bc45A913a0E17060F3BE356044994aCE81
+Contract Address 0x98A347Bc45A913a0E17060F3BE356044994aCE81 | Ether...
+The Contract Address 0x98A347Bc45A913a0E17060F3BE356044994aCE81 page allows users to view the source code, transactions, balances, and analytics for the contract address. Users can also interact and make transactions to the contract directly on Etherscan.
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/etherscan-logo-circle-A29B1.jpg
+
+
+[12/05/2022 09:26] he1m
+Hi, where can I watch the video?
+
+
+[12/05/2022 10:14] eyexploit
+https://drive.google.com/file/d/1_3lz2le-DJ-pzfpoBiawETQrzeKWAq30/view
+
+{Embed}
+https://drive.google.com/file/d/1_3lz2le-DJ-pzfpoBiawETQrzeKWAq30/view
+Paraspace-audit.mov
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/4mXrdL-LPoOUcXXkBWL_sTRFEbdNOlOTJFEDjcpCDY-C1CCA
+
+{Reactions}
+👍 (3) 
+
+[12/05/2022 11:06] he1m
+Thanks.
+
+
+[12/05/2022 14:40] R2#8087
+@Yubo or @ivans 
+Hi! DMed
+
+
+[12/05/2022 21:17] mert_eren#2527
+hey, how can i upload image when submit finding?
+
+
+[12/05/2022 22:01] trust90
+You can upload a private image to imgur and submit a link to it
+
+
+[12/06/2022 01:22] eyexploit
+hey guys, I accidentally submitted a vulnerability without login in, if I submit it again, will it consider as duplicate (if it is ended to be unique)?
+
+
+[12/06/2022 01:25] liveactionllamac4
+Hi there! Can you please submit a help request with a bit more information - including the contest name(s) and the title of your submission(s) - so that our team can look into this further? TY!
+https://code4rena.com/help
+
+
+[12/06/2022 01:26] eyexploit
+yeah sure
+
+{Reactions}
+thankyou 
+
+[12/06/2022 04:40] R2#8087
+Hi guys! 
+What is the desired difference between !ACTIVE and FROZEN statuses?
+
+
+[12/06/2022 05:11] R2#8087
+And could you please send example of `IRewardController` implementation
+
+
+[12/06/2022 07:39] dewaxindo
+Hi how to run single unit testing using make fast-test?
+
+
+[12/06/2022 07:39] dewaxindo
+Don't want to run the whole unit testing
+
+
+[12/06/2022 10:27] Franfran#5067
+any sponsor out here ?
+
+
+[12/06/2022 14:30] R2#8087
+Very lack of answers from sponsors
+
+
+[12/06/2022 15:59] trust90
+Yeah, can't reach out to them
+
+
+[12/07/2022 00:04] walidofnow
+Hi guys! I am from the ParaSpace team. feel free to ask me any questions. let me know here before you DM so I can accept your request
+
+
+[12/07/2022 00:06] walidofnow
+dm me if you want as well
+
+
+[12/07/2022 00:06] acegawd
+Where can I find the implementation for the IRewardController?
+
+
+[12/07/2022 00:11] walidofnow
+we currently don't have one. but you can check Aave's implementation here: (we have the same interface)
+https://github.com/aave/aave-v3-periphery/blob/master/contracts/rewards/RewardsController.sol
+
+{Embed}
+https://github.com/aave/aave-v3-periphery/blob/master/contracts/rewards/RewardsController.sol
+aave-v3-periphery/RewardsController.sol at master · aave/aave-v3-pe...
+Contribute to aave/aave-v3-periphery development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/aave-v3-periphery-A16A4
+
+{Reactions}
+👍 
+
+[12/07/2022 00:12] acegawd
+Also Dmed
+
+
+[12/07/2022 02:22] ladboy233
+@WalidOfNow Dmed
+
+
+[12/07/2022 03:02] R2#8087
+@WalidOfNow hi! Still looking forward to get an answer here
+
+
+[12/07/2022 03:04] R2#8087
+And also dmed
+
+
+[12/07/2022 07:38] Helios#7441
+Hi! I cant enter the github-paraspace-core page, anyone else having this problem?
+
+
+[12/07/2022 11:25] Saintcode_#8823
+what is the function .rayMul() from the WadRayMath lib?
+
+
+[12/07/2022 15:11] acegawd
+@WalidOfNow still awaiting your response.
+
+{Reactions}
+➕ 
+
+[12/07/2022 15:12] trust90
+@WalidOfNow added as friend
+
+
+[12/07/2022 16:14] ladboy233
+Is ui/WETHGateway not in scope?
+
+
+[12/07/2022 17:15] walidofnow
+I will get back to you on all of your questions within the next 4 hours!
+
+
+[12/07/2022 17:15] walidofnow
+Including dms
+
+
+[12/07/2022 17:44] Franfran#5067
+Multiply two numbers, ray is a unit (10**28)
+
+
+[12/07/2022 20:33] trust90
+10**27 to be exact
+
+{Reactions}
+👍 
+
+[12/07/2022 21:56] lsdan
+@Dravee ☝️
+
+{Reactions}
+hi5 (2) 
+
+[12/07/2022 22:00] dravee
+Well, all contracts that are effectively in scope are in the scope table and I can't see it, so, no, it's not in the agreed scope 🙂
+
+
+[12/07/2022 22:21] ladboy233
+ok
+
+
+[12/07/2022 22:39] acegawd
+@Trust Dmed you.
+
+
+[12/08/2022 04:02] dewaxindo
+Hi, how do we run make test or make fast-test but only single file only?
+do not want to run the whole testing file
+
+
+[12/08/2022 04:03] dewaxindo
+I try to run
+`make fast-test test/_oracle_nft_floor_price.spec.ts`
+
+but it seem still run the whole testing files
+
+
+[12/08/2022 04:05] dewaxindo
+@ivans , @WalidOfNow , @Yubo
+
+
+[12/08/2022 07:24] walidofnow
+have you tried `npx hardhat test test/_oracle_nft_floor_price.spec.ts` ?
+
+
+[12/08/2022 07:25] dewaxindo
+thank you
+
+
+[12/08/2022 14:54] acegawd
+@WalidOfNow still have some questions via DM.
+
+
+[12/08/2022 15:21] ladboy233
+lol
+
+
+[12/08/2022 15:21] ladboy233
+I first time see the quick sort is implemented recursively in solidity
+
+{Reactions}
+👍 (2) 🥲 
+
+[12/08/2022 15:21] ladboy233
+😂
+
+
+[12/08/2022 16:53] R2#8087
+@WalidOfNow DMed
+
+
+[12/08/2022 20:11] 0xnazgul
+@ivans, @WalidOfNow, @Yubo DMed a question can one of you answer
+
+
+[12/08/2022 22:46] pwnforce
+The issue raised in PR https://github.com/para-space/paraspace-core/pull/7 has been already identified and evaluated, therefore, not eligible for rewards.
+
+why this link is not accessible?
+
+
+[12/08/2022 22:49] pwnforce
+@ivans  , @WalidOfNow  , @Yubo
+
+
+[12/08/2022 23:04] jm217
+Anyone available for DM?
+
+
+[12/09/2022 00:51] lsdan
+I also cannot access this issue so unless the team makes it available, I'll likely consider it valid. If the team does make it available, I won't mark any reports that overlap it unsatisfactory, since it wasn't visible during the contest.
+
+
+[12/09/2022 00:52] lsdan
+@kartoonjoy @Dravee can we try to get at least a copy of the PR if they can't make the whole repo public?
+
+
+[12/09/2022 00:54] dravee
+Oh wow I'm 404 too now. @kartoonjoy, I think you'll need to ask the sponsor about it 🙏
+
+{Reactions}
+👍 
+
+[12/09/2022 00:55] lsdan
+Ok, yeah... anything related to that PR will be nullified, not unsatisfactory
+
+
+[12/09/2022 01:03] kartoonjoy
+I've asked the sponsor to take a look. Hope to hear back soon. Thanks!
+
+{Reactions}
+👍 
+
+[12/09/2022 05:46] walidofnow
+this is the change in PR 7. we had to close the repo during the contest since we are in the process of fixing some findings 🙂
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/Screenshot_2022-12-08_at_9.46.05_PM-B6C55.png
+
+{Reactions}
+thankyou (2) 
+
+[12/09/2022 08:57] c7e7eff
+Making a PoC script for Goerli really is like shooting a moving target isn't it.
+
+
+[12/09/2022 11:05] cloudellie
+@LSDan @pwnforce @Dravee just making sure you see this ^^
+
+{Reactions}
+hi5 🙏 
+
+[12/09/2022 11:49] aviggiano
+hello
+
+I have a question: I can't find in the codebase what are the sensible values for `reserve.currentVariableBorrowRate`
+
+https://github.com/code-423n4/2022-11-paraspace/blob/3e4e2e4e1322482dcdc6d342f8799cd44a3e42f5/paraspace-core/contracts/protocol/libraries/logic/ReserveLogic.sol#L87
+
+This is an `uint128`, but I would like to ask what range of values should the protocol expect
+
+
+[12/09/2022 17:15] ladboy233
+If the NFT is liquidated.
+
+
+[12/09/2022 17:15] ladboy233
+should the liqudiator receive the NFT or the NToken???
+
+
+[12/09/2022 17:15] ladboy233
+Please answer. Thanks.
+
+
+[12/09/2022 17:15] ladboy233
+@WalidOfNow @Yubo @ivans
+
+
+[12/09/2022 19:52] ryanjshaw
+is there a way to see what I've submitted?
+
+
+[12/09/2022 19:53] kartoonjoy
+should be on the findings tab
+
+{Reactions}
+👍 (2) 
+
+[12/09/2022 19:53] ryanjshaw
+ah yeah it wasn't loading for some reason 🙂
+
+
+[12/09/2022 19:54] kartoonjoy
+under rjs for paraspace?
+
+
+[12/09/2022 19:54] kartoonjoy
+lets dm actually; can you accept my request
+
+
+[12/09/2022 20:02] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **ParaSpace** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+{Reactions}
+🎉 (10) 
+
+[01/02/2023 15:25] xyzbtchunt
+Any update?
+
+
+[01/02/2023 20:16] ladboy233
+👀
+
+{Reactions}
+👎 (3) 👍 (2) 
+
+[01/05/2023 17:25] xyzbtchunt
+Any update?
+
+
+[01/14/2023 17:34] ladboy233
+👀👀👀
+
+{Reactions}
+😂 (3) 
+
+[01/17/2023 15:03] dewaxindo
+any news?
+
+{Reactions}
+👍🏻 
+
+[01/17/2023 16:40] chaduke3730
+is this the last pending nov contest ?
+
+{Reactions}
+goose (2) 
+
+[01/19/2023 15:18] ladboy233
+👀
+
+{Reactions}
+angerytableslam (7) 
+
+[01/19/2023 20:00] chaduke3730
+about time
+
+
+[01/19/2023 20:00] chaduke3730
+so that we can close out nov
+
+
+[01/20/2023 15:11] dewaxindo
+Hi Ladboy, are you accepting mentee? 😀
+
+
+[01/20/2023 16:22] ladboy233
+I am not experienced enough to be a mentor. I am also still learning:chefskiss:
+
+
+[01/20/2023 16:24] dewaxindo
+Haha, np can I add you though?
+
+
+[01/20/2023 17:53] ladboy233
+ok
+
+
+[01/20/2023 18:08] skinz#1102
+since u are accepting mentees can u add me as well
+
+
+[01/20/2023 18:13] saksham#7993
+He just said he is not a mentor 😂
+
+
+[01/20/2023 18:15] ladboy233
+😂just study past report and read the project doc very carefully before auditing and look into any external integration. I am not qualified to be a mentor.
+
+
+[01/20/2023 18:17] ladboy233
+everytime there is a red mention tag in code4rena I thought new report came out😂😂😂
+
+{Reactions}
+😂 (4) 🤝 (2) 
+
+[01/21/2023 17:24] ladboy233
+🧐
+
+{Reactions}
+👀 (9) 
+
+[01/23/2023 17:33] pwnforce
+😑
+
+
+[01/23/2023 18:33] ladboy233
+👀👀👀👀👀👀👀👀
+
+{Reactions}
+👀 (3) 
+
+[01/25/2023 03:27] deekshith09
+👀
+
+
+[01/26/2023 16:26] skinz#1102
+👀
+
+
+[01/26/2023 17:10] ladboy233
+👁️
+
+
+[01/29/2023 11:22] ladboy233
+👀
+
+
+[01/30/2023 15:29] ladboy233
+🥲
+
+{Reactions}
+👨‍🦳 (4) 
+
+[01/31/2023 23:50] ladboy233
+https://tenor.com/view/curious-say-when-thinking-gif-12521449
+
+{Embed}
+https://tenor.com/view/curious-say-when-thinking-gif-12521449
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/curious-say-29EC7.png
+
+
+[02/01/2023 21:47] ahmet5611
+https://github.com/code-423n4/code423n4.com/commit/1d05ddeb307810a671649aacb6d17615cd28abfd
+
+{Embed}
+https://github.com/code-423n4/code423n4.com/commit/1d05ddeb307810a671649aacb6d17615cd28abfd
+Add 186 to Leaderboard · code-423n4/code423n4.com@1d05dde
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/1d05ddeb307810a671649aacb6d17615cd28abfd-D2245
+
+{Reactions}
+😱 (4) 
+
+[02/01/2023 21:48] ahmet5611
+im scared of @Trust ☠️
+
+
+[02/01/2023 22:36] ladboy233
+👀
+
+
+[02/01/2023 22:43] trust90
+👀
+
+{Reactions}
+👀 (2) 
+
+[02/01/2023 23:01] itsmetechjay
+:C4Keycap:  💸 🎉 Awards for **ParaSpace**:
+
+$61,283.00 USDC » @Trust 
+$13,222.39 USDC » @minhquanym 
+$7,846.74 USDC » @unforgiven 
+$6,908.90 USDC » @Jeiwan 
+$6,691.89 USDC » @IllIllI 
+$5,428.51 USDC » @csanuragjain 
+$4,903.26 USDC » @0x52 
+$4,083.63 USDC » @RaymondFam 
+$3,787.38 USDC » @Dravee 
+$3,241.84 USDC » @cccz 
+$3,189.42 USDC » @Franfran 
+$2,254.07 USDC » @xiaoming90 
+$2,183.31 USDC » @hyh 
+$2,068.06 USDC » @brgltd 
+$1,711.51 USDC » @__141345__ 
+$1,671.94 USDC » @gzeon 
+$1,591.05 USDC » @Sathish9098 
+$1,591.05 USDC » @chrisdior4 
+$1,303.36 USDC » @Roman 
+$1,238.20 USDC » @joestakey 
+$1,219.66 USDC » poirots (@Davide Silva, @resende, @naps62)
+$1,189.79 USDC » @0xladboy | Sparkware 
+$1,155.31 USDC » @Rolezn 
+$1,062.19 USDC » @KingNFT 
+$1,028.49 USDC » @Deivitto 
+$923.32 USDC » @0xNazgul 
+$882.55 USDC » @0xSmartContract 
+$882.55 USDC » oyc_109
+$882.55 USDC » @0xAgro 
+$882.55 USDC » @delfin454000 
+$835.71 USDC » @ayeslick 
+$825.27 USDC » @kaliberpoziomka8552 
+$822.65 USDC » @imare 
+$764.31 USDC » @pashov 
+$685.90 USDC » @c7e7eff/RustyRabbit 
+$622.39 USDC » @eierina 
+$603.51 USDC » SmartSek (@hake | SmartSek, @0xDjango)
+$395.92 USDC » @9svR6w 
+$372.29 USDC » @Englave 
+$342.95 USDC » @Big0xDev 
+$292.01 USDC » @Josiah 
+$289.21 USDC » @Kong 
+$273.13 USDC » @carlitox477 
+$266.74 USDC » @mahdikarimi 
+$266.74 USDC » @R2
+$257.37 USDC » @nicobevi.eth 
+$255.48 USDC » @ahmedov 
+$249.86 USDC » @B2
+$249.86 USDC » @PaludoX0 
+$148.85 USDC » @Awesome 
+$148.85 USDC » @code-cipher 
+$145.94 USDC » @saneryee 
+$145.94 USDC » @_Adam 
+$145.94 USDC » @cyberinn 
+$145.94 USDC » @c3phas 
+$145.94 USDC » @rjs 
+$126.38 USDC » @datapunk 
+$126.38 USDC » @shark 
+$122.22 USDC » @rvierdiiev 
+$122.22 USDC » @rbserver 
+$115.15 USDC » @pzeus 
+$109.55 USDC » @Mukund 
+$109.55 USDC » @gz627 
+$109.55 USDC » @jadezti 
+$108.49 USDC » @EricTee 
+$103.92 USDC » @kankodu 
+$103.92 USDC » Secureverse (@imkapadia, @Nsecv, @0xwhiteDevil)
+$103.92 USDC » @pavankv 
+$103.92 USDC » @martin11 
+$103.92 USDC » @Bnke 
+$103.92 USDC » @ch0bu 
+$103.92 USDC » @HE1M 
+$103.92 USDC » @Helios 
+$103.92 USDC » @0xackerman 
+$103.92 USDC » @ronnyx2017 | Offside Labs 
+$103.92 USDC » @i_got_hacked 
+$103.92 USDC » @ksk2345 
+$103.92 USDC » @tsar 
+$103.92 USDC » @pedr02b2 
+$103.92 USDC » @nadin 
+$103.92 USDC » @anon 
+$103.92 USDC » @jayphbee 
+$103.92 USDC » @yjrwkk 
+$103.92 USDC » @cryptonue 
+$103.92 USDC » @Ignacio 
+$103.92 USDC » @Diana 
+$103.92 USDC » @cryptostellar5 
+$103.92 USDC » @Deekshith99 
+$103.92 USDC » @Kaiziron 
+$102.89 USDC » @0xDave 
+$54.09 USDC » @hansfriese 
+$50.56 USDC » BClabs (@nalus, @Reptilia)
+$44.93 USDC » @chaduke 
+$22.47 USDC » @bullseye 
+$22.47 USDC » @ali_shehab 
+$22.47 USDC » @Atarpara 
+$22.47 USDC » @fatherOfBlocks
+
+{Reactions}
+🐐 (5) 
+
+[02/01/2023 23:01] itsmetechjay
+$18.31 USDC » @codecustard 
+$18.31 USDC » @seyni 
+$18.31 USDC » @ujamal_ 
+$18.31 USDC » @skinz 
+$11.23 USDC » @web3er 
+$5.63 USDC » @hihen 
+$5.63 USDC » @wait 
+$5.63 USDC » @fs0c 
+$5.63 USDC » @Saintcode_ 
+
+🏁 Findings summary
+---------------------------
+High risk findings: 55 total, 10 unique
+Med risk findings: 112 total, 24 unique
+Gas findings: 15
+QA findings: 69
+
+Awards will be distributed on Polygon within the next week. Congratulations, everyone! 💸 💸 💸
+
+*If you participated in this contest and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions.*
+
+{Reactions}
+🚀 (8) 🤯 (3) hi5 (2) 
+
+[02/01/2023 23:02] illilli000
+wow
+
+
+[02/01/2023 23:03] gzeon
+damn missed the QA period lol
+
+
+[02/01/2023 23:07] un_for_given
+This isn't a contest, This is a massacre!
+
+{Reactions}
+😂 (13) 
+
+[02/01/2023 23:11] carlitox477
+Hahahahah, not again!
+
+
+[02/01/2023 23:11] carlitox477
+Congrats @Trust !!! Always top notch performance
+
+
+[02/01/2023 23:19] ladboy233
+:chefskiss: 🥲
+
+
+[02/01/2023 23:52] kmanofficial
+🐐
+
+
+[02/02/2023 00:03] dadekuma
+@Trust you are insane, man 🔥🔥🔥
+
+
+[02/02/2023 06:48] Franfran#5067
+@Trust give us a chance at least 🤣
+
+{Reactions}
+😂 (4) 
+
+[02/02/2023 08:09] supernovahs
+@Trust How much time did it took to create this POC?
+Genuinely asking
+
+
+[02/02/2023 08:43] pwnforce
+Why I do not have access to this link?
+
+
+[02/02/2023 08:44] supernovahs
+Backstage access
+
+
+[02/02/2023 08:55] uvvirus
+i submitted some gas optimization issues but my name is not in the rewards list. can i dm any of the admin please🥲
+
+
+[02/02/2023 09:09] trust90
+1 hour I think
+
+{Reactions}
+👍 (5) 🫡 (8) 🐐 (4) 
+
+[02/02/2023 11:02] 0xsorrynotsorry
+C4 GH Repo after the results 😂
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - paraspace-nov28 [1044669795443945564].txt_Files/Screenshot_20230202_140107-5FBCC.jpg
+
+
+[02/02/2023 11:03] 0xsorrynotsorry
+I assume an overflow. Lol
+
+{Reactions}
+😂 (5) 
+
+[02/02/2023 15:04] jsonbin#5885
+🤯 what a contest!
+
+
+[02/02/2023 17:51] sathish9098kumar
+I am flying my first big rewards 😀
+
+{Reactions}
+Clap (14) 
+
+==============================================================
+Exported 207 message(s)
+==============================================================
